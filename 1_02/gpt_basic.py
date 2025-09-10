@@ -1,6 +1,6 @@
 from openai import openai
 from config.const import OPENAI_API_KEY
-from prompts.1_02_prompt import gpt_basic
+from prompts.prompt_1_02 import gpt_basic_prompt
 
 client = OpenAI(OPENAI_API_KEY)
 prompt = gpt_basic_prompt()
