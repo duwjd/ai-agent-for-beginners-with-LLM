@@ -1,0 +1,16 @@
+# config/const.py 파일 무시
+config/const.py
+
+#가상환경
+.venv/
+
+# VSCode
+.vscode/
+
+#로그, 임시파일
+*.log
+*.tmp
+*.temp
+
+# 환경 변수 파일
+.env
