@@ -1,0 +1,7 @@
+# BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
+## 저자의 문제 인식 및 주장(500자)
+저자들은 현재 자연어 처리 모델의 언어 표현 사전 학습 방식이 주로 단방향 모델에 의존하고 있으며, 이는 양방향 문맥을 효과적으로 결합할 수 없다는 근본적인 한계를 지적하고 있다. 이 문제를 해결하기 위해 BERT(Bidirectional Encoder Representations from Transformers)라는 새로운 언어 표현 모델을 제안한다. BERT는 '마스크드 언어 모델'(Masked Language Model, MLM)과 '다음 문장 예측'(Next Sentence Prediction, NSP)이라는 두 가지 사전 학습 기법을 통해 깊이 있는 양방향 표현을 학습할 수 있도록 한다. 이를 통해 BERT는 질문 응답, 자연어 추론 등 다양한 자연어 처리 과제에서 최첨단 성능을 달성하며, 기존의 단방향 모델보다 우수한 성능을 보인다. 또한, BERT는 특정 과제에 맞춘 복잡한 아키텍처 없이도 다양한 과제에 대한 뛰어난 성능을 보여준다.
+
+## 저자 소개
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova는 모두 Google AI Language의 연구원으로, 자연어 처리 분야의 최첨단 기술 개발에 기여하고 있다. 이들은 특히 딥러닝과 언어 모델링을 활용한 자연어 처리 기술의 혁신에 중점을 두고 연구하고 있다.
